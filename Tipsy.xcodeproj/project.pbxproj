@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775D25B729E71A69009FFBFD /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D25B629E71A69009FFBFD /* Bill.swift */; };
+		775D25B929E71AF8009FFBFD /* BillModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D25B829E71AF8009FFBFD /* BillModal.swift */; };
+		775D25BB29E7215B009FFBFD /* TotalBillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D25BA29E7215B009FFBFD /* TotalBillViewController.swift */; };
 		ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689522326708D006D4E2B /* AppDelegate.swift */; };
 		ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689542326708D006D4E2B /* SceneDelegate.swift */; };
 		ADB689572326708D006D4E2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB689562326708D006D4E2B /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		775D25B629E71A69009FFBFD /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		775D25B829E71AF8009FFBFD /* BillModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillModal.swift; sourceTree = "<group>"; };
+		775D25BA29E7215B009FFBFD /* TotalBillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBillViewController.swift; sourceTree = "<group>"; };
 		ADB6894F2326708D006D4E2B /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB689522326708D006D4E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB689542326708D006D4E2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		775D25B129E7199B009FFBFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				775D25B629E71A69009FFBFD /* Bill.swift */,
+				775D25B829E71AF8009FFBFD /* BillModal.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		775D25B429E719CF009FFBFD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ADB689562326708D006D4E2B /* ViewController.swift */,
+				775D25BA29E7215B009FFBFD /* TotalBillViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		775D25B529E71A05009FFBFD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADB689582326708D006D4E2B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		ADB689462326708D006D4E2B = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +90,9 @@
 			children = (
 				ADB689522326708D006D4E2B /* AppDelegate.swift */,
 				ADB689542326708D006D4E2B /* SceneDelegate.swift */,
-				ADB689562326708D006D4E2B /* ViewController.swift */,
-				ADB689582326708D006D4E2B /* Main.storyboard */,
+				775D25B129E7199B009FFBFD /* Model */,
+				775D25B529E71A05009FFBFD /* View */,
+				775D25B429E719CF009FFBFD /* Controller */,
 				ADB6895B2326708E006D4E2B /* Assets.xcassets */,
 				ADB6895D2326708E006D4E2B /* LaunchScreen.storyboard */,
 				ADB689602326708E006D4E2B /* Info.plist */,
@@ -138,6 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775D25B929E71AF8009FFBFD /* BillModal.swift in Sources */,
+				775D25B729E71A69009FFBFD /* Bill.swift in Sources */,
+				775D25BB29E7215B009FFBFD /* TotalBillViewController.swift in Sources */,
 				ADB689572326708D006D4E2B /* ViewController.swift in Sources */,
 				ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */,
 				ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */,
